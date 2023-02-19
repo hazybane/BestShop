@@ -1,0 +1,17 @@
+@mixin notebook {
+  @media (max-width: 1352px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 792px) {
+    @content;
+  }
+}

@@ -1,0 +1,224 @@
+/**
+ * Benefits Section
+ */
+.benefits {
+  padding: 100px 0;
+  background-color: $color-light-grey;
+
+  @include tablet {
+    padding: 50px 0;
+  }
+
+  &__container {
+    padding: 0 100px;
+
+    @include tablet {
+      padding: 0 15px;
+    }
+  }
+
+  &__single {
+    background-color: $color-white;
+    border: 1px solid #E8E9ED;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 37px;
+    border-radius: 5px;
+
+    @include tablet {
+      flex-direction: column-reverse !important;
+      align-items: center;
+      padding: 0 20px !important;
+    }
+
+    &--notebook {
+      --accent-color: #{$color-redish};
+
+      .benefits__image {
+        margin-right: 117px;
+        margin-bottom: 38px;
+
+        @include tablet {
+          margin: 40px 0 0;
+        }
+
+        &::before {
+          content: "";
+          width: 180px;
+          height: 180px;
+          background-color: var(--accent-color);
+          display: block;
+          border-radius: 40px;
+          position: absolute;
+          right: 0;
+          top: -40px;
+          transform: rotate(45deg);
+
+          @include tablet {
+            width: 90px;
+            height: 90px;
+            right: -10px;
+            top: -30px;
+          }
+        }
+
+        img {
+          width: 386px;
+          height: auto;
+          position: relative;
+          z-index: 2;
+
+          @include tablet {
+            width: 192px;
+          }
+        }
+      }
+
+      @include tablet {
+        .benefits__text {
+          margin: 30px 0;
+        }
+      }
+    }
+
+    &--phone {
+      --accent-color: #{$color-primary};
+      flex-direction: row-reverse;
+      padding: 0 20px 0 70px;
+
+      .benefits__image {
+        @include tablet {
+          margin-top: 30px;
+        }
+
+        &::before {
+          content: "";
+          width: 320px;
+          height: 320px;
+          background-color: var(--accent-color);
+          display: block;
+          border-radius: 50%;
+          position: absolute;
+          left: 0;
+          top: -20px;
+
+          @include tablet {
+            width: 131px;
+            height: 131px;
+            top: -15px;
+          }
+        }
+
+        img {
+          width: 426px;
+          height: auto;
+
+          @include tablet {
+            width: 175px;
+          }
+        }
+      }
+
+      .benefits__text {
+        margin: 70px 0;
+
+        @include tablet {
+          margin: 30px 0;
+        }
+      }
+    }
+
+  }
+
+  &__double {
+    --accent-color: #{$color-green};
+    display: flex;
+
+    @include tablet {
+      flex-direction: column;
+    }
+
+    > div {
+      margin-bottom: 0;
+    }
+
+    .benefits__single--solo {
+      max-width: 620px;
+
+      .benefits__text {
+        max-width: none;
+        margin: 70px 35px;
+      }
+
+      @include tablet {
+        max-width: none;
+
+        .benefits__text {
+          margin: 0;
+          padding: 30px 0;
+        }
+      }
+    }
+
+    .benefits__single--image {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--accent-color);
+      border: none;
+      margin-left: 60px;
+
+      @include tablet {
+        margin-left: 0;
+        margin-top: -5px;
+      }
+
+      img {
+        width: 295px;
+        height: auto;
+        margin-top: 55px;
+      }
+    }
+  }
+
+
+  &__text {
+    box-sizing: content-box;
+    max-width: 415px;
+    margin: 90px 36px;
+
+    @include tablet {
+      margin: 0;
+      max-width: none;
+    }
+
+    &::after {
+      content: "";
+      width: 332px;
+      height: 4px;
+      background-color: var(--accent-color);
+      display: block;
+      margin-top: 50px;
+
+      @include tablet {
+        display: none;
+      }
+    }
+  }
+
+  &__description {
+    margin-top: 30px;
+    line-height: 1.375rem;
+  }
+
+  &__image {
+    position: relative;
+
+    img {
+      position: relative;
+      z-index: 2;
+    }
+  }
+}
