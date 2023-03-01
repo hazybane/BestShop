@@ -45,6 +45,6 @@ $ npm install -S myLib
 $ npm start
 ```
 
-## Authors
+## Author
 
 * **Roman Patiuk** - *Best Shop* - (https://github.com/hazybane)
