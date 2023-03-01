@@ -1,7 +1,7 @@
 # BestShop layout
-HTML AND SCSS(RWD),JS.
+HTML,SCSS(RWD),JS.
 
-> Write a project description
+Responsive one-page layout(mobile,tablet,laptop) with different sections,containing calculator and a form.
 
 ## Prerequisites
 
