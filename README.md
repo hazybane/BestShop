@@ -48,3 +48,19 @@ $ npm start
 ## Author
 
 * **Roman Patiuk** - *Best Shop* - (https://github.com/hazybane)
+
+## Screenshots 
+![image](https://user-images.githubusercontent.com/118274216/222269083-1cd197e6-55be-426c-9685-6dbca6484ba7.png)
+![image](https://user-images.githubusercontent.com/118274216/222269168-c380f7c0-e7a8-45ba-bb79-2aa3928d120c.png)
+![image](https://user-images.githubusercontent.com/118274216/222269209-8675d4a3-33b4-4d7a-910e-1a86fb7c1b86.png)
+![image](https://user-images.githubusercontent.com/118274216/222269289-a1667724-8d29-41f0-8c8e-7c4dff98a4f5.png)
+![image](https://user-images.githubusercontent.com/118274216/222269347-dbd350ef-11b7-4288-951a-8d41b19aa8c1.png)
+![image](https://user-images.githubusercontent.com/118274216/222269398-851b76b3-5a64-4ba9-9079-d395b9e26edd.png)
+![image](https://user-images.githubusercontent.com/118274216/222269510-060094d2-fc3a-4d9f-bb2d-d450bfd9b163.png)
+![image](https://user-images.githubusercontent.com/118274216/222269740-86946af2-262e-4d0a-a216-4d0bed6634ad.png)
+
+
+
+
+
+
