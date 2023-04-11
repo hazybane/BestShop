@@ -3,6 +3,8 @@ HTML,SCSS(RWD),JS.
 
 Responsive one-page layout(mobile,tablet,laptop) with different sections,containing calculator and a form.
 
+Link to this project: https://best-shop-six.vercel.app/#
+
 ## Prerequisites
 
 This project requires NodeJS (version 8 or later) and NPM.
